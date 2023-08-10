@@ -36,7 +36,7 @@ function App() {
         <PodcastList podcasts={podcasts} />
        
       </div>
-
+ 
     </div>
 
   );
