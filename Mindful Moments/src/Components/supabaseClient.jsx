@@ -1,0 +1,10 @@
+
+import { createClient } from '@supabase/supabase-js'
+
+const supabaseUrl = 'https://tozgenmblmshwnykmcsm.supabase.co'
+const supabaseKey =     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRvemdlbm1ibG1zaHdueWttY3NtIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTA4MDMxMDIsImV4cCI6MjAwNjM3OTEwMn0.gu9hxjSLuH9XsmHdSWa8oWUJdCyb4uNbZoIkccbzALc"
+const supabase = createClient(supabaseUrl, supabaseKey)
+
+
+REACT_APP_SUPABASE_URL= https://tozgenmblmshwnykmcsm.supabase.co
+REACT_APP_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRvemdlbm1ibG1zaHdueWttY3NtIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTA4MDMxMDIsImV4cCI6MjAwNjM3OTEwMn0.gu9hxjSLuH9XsmHdSWa8oWUJdCyb4uNbZoIkccbzALc
